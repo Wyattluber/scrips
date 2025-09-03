@@ -1,0 +1,19 @@
+# Sorin loader paths (proxied from GitHub Raw)
+
+# main_script
+/sorin/main.lua  https://raw.githubusercontent.com/Wyattluber/006b6716-1c3e-4ff5-83ca-d115ee1faaf0/refs/heads/main/main_script.lua  200
+
+# autorob_script
+/sorin/autorob.lua  https://raw.githubusercontent.com/Wyattluber/006b6716-1c3e-4ff5-83ca-d115ee1faaf0/refs/heads/autorob/autorob_script.lua  200
+
+# beta_script
+/sorin/beta.lua  https://raw.githubusercontent.com/Wyattluber/006b6716-1c3e-4ff5-83ca-d115ee1faaf0/refs/heads/beta_script/beta_script.lua  200
+
+# developer_script
+/sorin/developer.lua  https://raw.githubusercontent.com/Wyattluber/006b6716-1c3e-4ff5-83ca-d115ee1faaf0/refs/heads/developer/developer_script.lua  200
+
+# vending_autorob (noch nicht vorhanden) -> 404-Fallback-Seite mit Hinweis
+/sorin/vending_autorob.lua  /not-ready.html  200
+
+# Optional: "latest" Alias zeigt aktuell auf main.lua (kannst du später umbiegen)
+/sorin/latest.lua  /sorin/main.lua  301
