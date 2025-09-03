@@ -1,0 +1,15 @@
+/* 
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  Permissions-Policy: interest-cohort=()
+
+/sorin/*
+  Content-Type: text/plain; charset=utf-8
+  # Für "stabile" Versionen kannst du immutable setzen; hier moderates Caching:
+  Cache-Control: public, max-age=300
+
+# Wenn du später Versionen wie /sorin/v1/... /sorin/v2/... nutzt:
+# /sorin/v1/*
+#   Content-Type: text/plain; charset=utf-8
+#   Cache-Control: public, max-age=31536000, immutable
